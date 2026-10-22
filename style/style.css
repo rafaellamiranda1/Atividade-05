@@ -2,26 +2,25 @@
     box-sizing: border-box;
 }
 
-h1, p{
-    text-align: center;
-}
-
 body{
     margin: 0;
-    background-color: aliceblue;
-    background-size: cover;
-    color: rgb(69, 69, 107);
+    background-color: rgb(47, 47, 87);
     font-family: cursive;
     font-size: 16px;
     line-height: 1.6;
 }
 
+h1, h2,h3{
+    color: aliceblue;
+}
+
 h1{
-    font-size: 38px;
+    font-size: 39px;
     margin-bottom: 10px;
     text-align: center;
-    color: rgb(245, 245, 253);
+    color: rgb(202, 200, 217);
 }
+
 
 .container{
     width: 90%;
@@ -30,7 +29,7 @@ h1{
 }
 .cabecalho{
     background-color: rgba(0, 0, 0, 0.332);
-    color: aliceblue;
+    color: rgb(46, 42, 75);
     padding: 30px 50px 50px 50px;
 
 }
@@ -40,4 +39,5 @@ h1{
     margin-right: 8px;
     margin-bottom: 8px;
     text-align: center;
+    color: rgb(46, 42, 75);;
 }
