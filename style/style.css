@@ -4,23 +4,39 @@
 
 body{
     margin: 0;
-    background-color: rgb(47, 47, 87);
-    font-family: cursive;
+    background-color:rgb(215, 235, 253);
+    color: rgb(46, 42, 75);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
 
-h1, h2,h3{
-    color: aliceblue;
+h2, h3{
+    color: rgb(46, 42, 75);
 }
 
 h1{
+    color: aliceblue;
     font-size: 39px;
     margin-bottom: 10px;
     text-align: center;
-    color: rgb(202, 200, 217);
 }
 
+h2{
+    font-size: 27px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+.imagem-capa{
+    width: 20%;
+}
+
+a{
+    color: azure;
+}
 
 .container{
     width: 90%;
@@ -28,9 +44,10 @@ h1{
     margin: 0 auto;
 }
 .cabecalho{
-    background-color: rgba(0, 0, 0, 0.332);
-    color: rgb(46, 42, 75);
-    padding: 30px 50px 50px 50px;
+    background-color: #28284d;
+    color: rgb(116, 113, 139);
+    padding: 30px 50px 5px 50px;
+    text-align: center;
 
 }
 
@@ -39,5 +56,34 @@ h1{
     margin-right: 8px;
     margin-bottom: 8px;
     text-align: center;
-    color: rgb(46, 42, 75);;
+    color: rgb(46, 42, 75);
+}
+
+.etiqueta{
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+    border-left: 5px solid rgb(46, 42, 75);
+    border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card{
+    padding: 24px;
+    background-color: rgb(246, 243, 243);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(133, 132, 132);
+}
+
+.card :active{
+
 }
