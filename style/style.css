@@ -4,19 +4,23 @@
 
 body{
     margin: 0;
-    background-color:rgb(215, 235, 253);
-    color: rgb(46, 42, 75);
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/img/capa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
 
 h2, h3{
-    color: rgb(46, 42, 75);
+    color: rgb(222, 219, 248);
 }
 
 h1{
-    color: aliceblue;
+    color: rgb(236, 226, 250);
     font-size: 39px;
     margin-bottom: 10px;
     text-align: center;
@@ -24,6 +28,7 @@ h1{
 
 h2{
     font-size: 27px;
+    color: rgb(236, 226, 250);
 }
 
 h3{
@@ -44,8 +49,8 @@ a{
     margin: 0 auto;
 }
 .cabecalho{
-    background-color: #28284d;
-    color: rgb(116, 113, 139);
+    background-color: #38284dcc;
+    color: rgb(220, 216, 245);
     padding: 30px 50px 5px 50px;
     text-align: center;
 
@@ -59,15 +64,38 @@ a{
     color: rgb(46, 42, 75);
 }
 
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+    list-style:none;
+    text-align: center;
+}
+
+.menu-lista li{
+    display: inline;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(73, 56, 95);
+    color: rgb(247, 244, 248);
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
 .etiqueta{
     font-family: cursive;
-    color: aliceblue;
+    color: rgb(243, 236, 252);
 }
 
 .titulo-secao{
     margin-bottom: 32px;
     padding-left: 12px;
-    border-left: 5px solid rgb(46, 42, 75);
+    border-left: 5px solid #2e2a4b;
     border-radius: 5px;
 }
 
@@ -78,7 +106,8 @@ a{
 
 .card{
     padding: 24px;
-    background-color: rgb(246, 243, 243);
+    background-color: #38284d;
+    color: azure;
     border: 1px solid rgb(240, 240, 240);
     border-radius: 10px;
     box-shadow: 0 10px 30px rgb(133, 132, 132);
